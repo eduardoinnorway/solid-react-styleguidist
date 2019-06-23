@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@inrupt/solid-style-guide": "^0.1.20",
+    "classnames": "^2.2.6",
     "react": "^16.8.3",
+    "react-css-grid": "^2.0.0-0",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "styleguidist server",
+    "build": "styleguidist build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +22,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-styleguidist": "^9.0.1"
+  }
 }
